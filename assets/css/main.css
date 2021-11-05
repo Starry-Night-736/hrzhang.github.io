@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(font-awesome.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
@@ -125,7 +125,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+		font-family: Helvetica, sans-serif; 
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2235,7 +2236,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'FontAwesome';
 			font-weight: 400;
 		}
 
@@ -2249,10 +2250,6 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon.major {
@@ -2308,6 +2305,14 @@ input, select, textarea {
 
 		.icon.style5 {
 			color: #8cc9f0;
+		}
+
+		.icon.style6 {
+			color: #ffbb66;
+		}
+
+		.icon.style7 {
+			color: #66dd00;
 		}
 
 		@media screen and (max-width: 1680px) {
