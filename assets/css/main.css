@@ -154,6 +154,21 @@ textarea {
   appearance: none;
 }
 
+/* Custom Font Import */
+@font-face {
+  font-family: "Apple Chancery";
+  src: url("../webfonts/Apple\ Chancery.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../webfonts/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Basic */
 
 @-ms-viewport {
