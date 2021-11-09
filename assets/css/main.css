@@ -137,6 +137,7 @@ body {
 mark {
   background-color: transparent;
   color: inherit;
+  font-family: Apple Chancery;
 }
 
 input::-moz-focus-inner {
