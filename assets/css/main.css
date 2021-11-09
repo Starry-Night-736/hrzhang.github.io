@@ -229,9 +229,6 @@ body {
 
 body,
 input,
-/* mark {
-  font-family: "Apple Chancery";
-} */
 select,
 textarea {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
@@ -239,6 +236,10 @@ textarea {
   font-size: 17pt;
   font-weight: 300;
   line-height: 1.65;
+}
+
+mark {
+  font-family: "Apple Chancery";
 }
 
 @media screen and (max-width: 1680px) {
