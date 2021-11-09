@@ -229,9 +229,9 @@ body {
 
 body,
 input,
-mark {
+/* mark {
   font-family: "Apple Chancery";
-}
+} */
 select,
 textarea {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
