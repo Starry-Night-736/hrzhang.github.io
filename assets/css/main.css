@@ -137,7 +137,6 @@ body {
 mark {
   background-color: transparent;
   color: inherit;
-  font-family: Apple Chancery;
 }
 
 input::-moz-focus-inner {
@@ -230,10 +229,13 @@ body {
 
 body,
 input,
+mark {
+  font-family: "Apple Chancery";
+}
 select,
 textarea {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: Helvetica, sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 17pt;
   font-weight: 300;
   line-height: 1.65;
